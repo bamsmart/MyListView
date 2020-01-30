@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="5dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/shio_image"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/horse"
+        app:layout_constraintEnd_toStartOf="@+id/shio_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@+id/shio_desc"/>
+
+    <TextView
+        android:id="@+id/shio_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/str_shio_name"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/shio_image"
+        app:layout_constraintTop_toTopOf="@+id/shio_image" />
+
+
+    <TextView
+        android:id="@+id/shio_desc"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/str_shio_desc"
+        android:textSize="12sp"
+        android:lines="3"
+        app:layout_constraintStart_toEndOf="@+id/shio_image"
+        app:layout_constraintStart_toStartOf="@+id/shio_name"
+        app:layout_constraintTop_toBottomOf="@+id/shio_name"
+        app:layout_constraintEnd_toStartOf="@id/btn_detail"/>
+
+
+    <Button
+        android:id="@+id/btn_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/str_detail_text"
+        app:layout_constraintBottom_toBottomOf="@id/shio_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/shio_desc"
+        app:layout_constraintTop_toTopOf="@id/shio_image" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

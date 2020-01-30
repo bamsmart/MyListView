@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">MyListView</string>
+
+    <string name="str_shio_name">Horse</string>
+    <string name="str_shio_desc">The Horse (⾺) is the seventh of the 12-year cycle of animals which appear in the Chinese zodiac related to the Chinese calendar.</string>
+    <string name="str_detail_text">Detail</string>
+
+    <string-array name="shio_data_name">
+        <item>Tikus</item>
+        <item>Kerbau</item>
+        <item>Macan</item>
+        <item>Kelinci</item>
+        <item>Naga</item>
+        <item>Ular</item>
+        <item>Kuda</item>
+        <item>Kambing</item>
+        <item>kera</item>
+        <item>Ayam</item>
+        <item>Anjing</item>
+        <item>Babi</item>
+    </string-array>
+
+    <string-array name="shio_data_description">
+        <item>Orang yang mempunyai shio tikus adalah orang yang kreatif, jujur, murah hati, ambisius, cepat bertindak, dan hemat.</item>
+        <item>Orang yang bershio kerbau cenderung keras kepala, pekerja keras, jujur, dan fleksibel. Sebagian besar orang bershio Kerbau selalu mengutamakan kesempurnaan dalam bekerja, dan mengharapkan orang lain juga berbuat hal yang sama.</item>
+        <item>Orang yang terlahir dengan shio macan cenderung beruntung dalam kehidupannya. Ia memiliki bakat seorang pemimpin, berambisi untuk berprestasi, dan gemar bekerja keras. Selain itu, ia bijaksana dalam dunia bisnis, percintaan, dan perang. </item>
+        <item>Menurut kepercayaan Tionghoa, orang yang mempunyai shio kelinci adalah orang yang pendiam, pemalu, retrospektif, dan bertenggang rasa.</item>
+        <item>Menurut kepercayaan Tionghoa, orang yang mempunyai shio naga adalah orang yang idealis, perfeksionis; lahir dengan pikiran bahwa mereka itu sempurna dan tidak ingin berubah. Mereka juga sangat agresif dan penuh tekad.</item>
+        <item>Menurut kepercayaan Tionghoa, orang yang mempunyai shio ular adalah orang yang tenang dan lembut, romantis dan perseptif. Meskipun begitu, mereka rajin dan rendah hati. Adapula yang menyatakan bahwa orang bershio ular mempunyai sifat luwes. Tetapi karakteristik ini merupakan mitos dan kepercayaan saja.</item>
+        <item>Menurut kepercayaan Tionghoa, orang yang mempunyai shio kuda adalah orang yang pintar, independen, dan berpikiran bebas.</item>
+        <item>Kambing</item>
+        <item>Orang yang bershio kera dipercaya sebagai orang yang cerdas, cerdik, eksentrik, dan mudah bergaul.</item>
+        <item>Menurut kepercayaan Tionghoa, orang yang mempunyai shio ayam adalah orang yang giat bekerja dan selalu pasti mengenai keputusan mereka. Mereka tidak takut untuk menyatakan apa yang ada dalam pikiran mereka dan sangat percaya diri juga perfeksionis.[</item>
+        <item>Menurut kepercayaan Tionghoa, orang yang mempunyai shio anjing adalah orang yang loyal, jujur, dan dapat dipercaya, tetapi juga bisa sabar dan merawat. Mereka adalah pemimpin, pekerja keras, berdedikasi sehingga sering sukses dalam berbisnis skala besar.[</item>
+        <item>Menurut kepercayaan Tionghoa, orang yang mempunyai shio babi adalah orang yang jujur, toleran dan merupakan sahabat yang baik namun mereka juga sering mengharapkan hal yang sama dari orang lain dan mereka bahagia melakukannya. Mereka juga sangat percaya kepada orang lain sehingga sukses berbisnis.[</item>
+    </string-array>
+
+    <array name="shio_data_photo">
+        <item>@drawable/rat</item>
+        <item>@drawable/ox</item>
+        <item>@drawable/tiger</item>
+        <item>@drawable/rabbit</item>
+        <item>@drawable/dragon</item>
+        <item>@drawable/snake</item>
+        <item>@drawable/horse</item>
+        <item>@drawable/goat</item>
+        <item>@drawable/monkey</item>
+        <item>@drawable/cock</item>
+        <item>@drawable/dog</item>
+        <item>@drawable/pig</item>
+    </array>
+
+
+</resources>
