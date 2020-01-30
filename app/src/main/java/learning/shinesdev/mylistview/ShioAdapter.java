@@ -51,7 +51,7 @@ public class ShioAdapter extends BaseAdapter {
         return i;
     }
 
-    // kelas view holder
+    //=============================
     private class ViewHolder {
         private ImageView imgShio;
         private TextView txtShioName;
