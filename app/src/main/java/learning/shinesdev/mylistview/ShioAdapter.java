@@ -8,6 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -24,14 +25,21 @@ public class ShioAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int i, View view, ViewGroup viewGroup) {
+    public View getView(final int i, View view, ViewGroup viewGroup) {
         View itemView = view;
         if (itemView == null) {
             itemView = LayoutInflater.from(mContext).inflate(R.layout.item_list, viewGroup, false);
         }
         ViewHolder viewHolder = new ViewHolder(itemView);
-        ShioModel shio = (ShioModel) getItem(i);
+        final ShioModel shio = (ShioModel) getItem(i);
         viewHolder.bind(shio);
+
+        viewHolder.btnDetail.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(mContext,((ShioModel) getItem(i)).getName(),Toast.LENGTH_LONG).show();
+            }
+        });
         return itemView;
     }
 
@@ -71,3 +79,5 @@ public class ShioAdapter extends BaseAdapter {
         }
     }
 }
+
+
