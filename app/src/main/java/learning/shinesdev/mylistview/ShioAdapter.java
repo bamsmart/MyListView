@@ -30,11 +30,10 @@ public class ShioAdapter extends BaseAdapter {
             itemView = LayoutInflater.from(mContext).inflate(R.layout.item_list, viewGroup, false);
         }
         ViewHolder viewHolder = new ViewHolder(itemView);
-        ShioModel hero = (ShioModel) getItem(i);
-        viewHolder.bind(hero);
+        ShioModel shio = (ShioModel) getItem(i);
+        viewHolder.bind(shio);
         return itemView;
     }
-
 
     @Override
     public int getCount() {
