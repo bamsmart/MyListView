@@ -38,15 +38,15 @@
         app:layout_constraintStart_toEndOf="@+id/shio_image"
         app:layout_constraintStart_toStartOf="@+id/shio_name"
         app:layout_constraintTop_toBottomOf="@+id/shio_name"
-        app:layout_constraintEnd_toStartOf="@id/btn_detail"/>
+        app:layout_constraintEnd_toStartOf="@id/arrow_detail"/>
 
 
-    <Button
-        android:id="@+id/btn_detail"
+    <ImageView
+        android:id="@+id/arrow_detail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:text="@string/str_detail_text"
+        android:src="@drawable/arrow"
         app:layout_constraintBottom_toBottomOf="@id/shio_desc"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/shio_desc"
